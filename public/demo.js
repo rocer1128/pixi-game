@@ -181,7 +181,7 @@ function play(){
 	if(explorerHit){
 		explorer.alpha = 0.5;
 		healthBar.outer.width -=1;
-		explorerHit = false;
+		// explorerHit = false;
 	}else{
 		explorer.alpha = 1;
 	}
